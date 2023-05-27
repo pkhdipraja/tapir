@@ -1,0 +1,18 @@
+MODEL: linear-transformers-causal  # {'linear-transformers', 'transformers', 'incremental-transformers'}
+BATCH_SIZE: 128
+LAYER: 4
+HIDDEN_SIZE: 512
+ATTENTION_HEAD: 8
+DROPOUT: 0.1
+LR: 0.0001
+MAX_EPOCH: 50
+GRAD_CLIP: -1
+DELAY: 0
+ACCU_GRAD: 1
+UNK_PROB: 0.02
+FF_SIZE: 2048
+LR_DECAY_LIST: [30, 40, 45]
+LR_DECAY_RATE: 0.5
+WARMUP_EPOCH: 5
+OPT: AdamW
+OPT_PARAMS: {betas: '(0.9, 0.98)', eps: '1e-9'}

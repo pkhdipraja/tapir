@@ -1,0 +1,28 @@
+add	O
+sabrina	B-artist
+salerno	I-artist
+to	O
+the	O
+grime	B-playlist
+instrumentals	I-playlist
+playlist	O
+
+i	O
+want	O
+to	O
+bring	O
+four	B-party_size_number
+people	O
+to	O
+a	O
+place	O
+that	O
+s	O
+close	B-spatial_relation
+to	O
+downtown	B-poi
+that	O
+serves	O
+churrascaria	B-restaurant_type
+cuisine	O
+

@@ -1,0 +1,17 @@
+i	O
+want	O
+to	O
+be	O
+reminded	O
+to	O
+file	B-reminder/todo
+tax	I-reminder/todo
+
+i	O
+don't	O
+want	O
+to	O
+forget	O
+to	O
+file	B-reminder/todo
+taxes	I-reminder/todo

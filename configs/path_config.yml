@@ -1,0 +1,34 @@
+snips-slot:
+  train: train.snips_slot
+  valid: valid.snips_slot
+  test: test.snips_slot
+
+multilingual:
+  train: train.multilingual_task_oriented
+  valid: valid.multilingual_task_oriented
+  test: test.multilingual_task_oriented
+
+movie:
+  train: train.movie
+  valid: valid.movie
+  test: test.movie
+
+chunk-conll2003:
+  train: train.chunk_conll2003
+  valid: valid.chunk_conll2003
+  test: test.chunk_conll2003
+
+pos-conll2003:
+  train: train.pos_conll2003
+  valid: valid.pos_conll2003
+  test: test.pos_conll2003
+
+ner-conll2003:
+  train: train.ner_conll2003
+  valid: valid.ner_conll2003
+  test: test.ner_conll2003
+
+pos-ud-ewt:
+  train: train.ud_ewt
+  valid: valid.ud_ewt
+  test: test.ud_ewt

@@ -1,0 +1,18 @@
+are	O
+there	O
+any	O
+good	O
+romantic	B-GENRE
+comedies	I-GENRE
+out	O
+right	B-YEAR
+now	I-YEAR
+
+show	O
+me	O
+a	O
+movie	O
+about	O
+cars	B-PLOT
+that	I-PLOT
+talk	I-PLOT
