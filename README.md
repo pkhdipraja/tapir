@@ -71,17 +71,22 @@ If the repository is helpful for your research, we would really appreciate if yo
 
 
 ```
-@inproceedings{kahardipraja23,
-    title = "{TAPIR}: {L}earning Adaptive Revision for Incremental Natural Language Understanding with a Two-Pass Model",
+@inproceedings{kahardipraja-etal-2023-tapir,
+    title = "{TAPIR}: Learning Adaptive Revision for Incremental Natural Language Understanding with a Two-Pass Model",
     author = "Kahardipraja, Patrick  and
       Madureira, Brielen  and
       Schlangen, David",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
-    month = july,
+    month = jul,
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
-    url = "[To Appear]",
-    pages = "[To Appear]",
+    url = "https://aclanthology.org/2023.findings-acl.257",
+    doi = "10.18653/v1/2023.findings-acl.257",
+    pages = "4173--4197",
+    abstract = "Language is by its very nature incremental in how it is produced and processed. This property can be exploited by NLP systems to produce fast responses, which has been shown to be beneficial for real-time interactive applications. Recent neural network-based approaches for incremental processing mainly use RNNs or Transformers. RNNs are fast but monotonic (cannot correct earlier output, which can be necessary in incremental processing). Transformers, on the other hand, consume whole sequences, and hence are by nature non-incremental. A restart-incremental interface that repeatedly passes longer input prefixes can be used to obtain partial outputs, while providing the ability to revise. However, this method becomes costly as the sentence grows longer. In this work, we propose the Two-pass model for AdaPtIve Revision (TAPIR) and introduce a method to obtain an incremental supervision signal for learning an adaptive revision policy. Experimental results on sequence labelling show that our model has better incremental performance and faster inference speed compared to restart-incremental Transformers, while showing little degradation on full sequences.",
 }
 ```
